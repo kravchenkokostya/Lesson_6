@@ -1,0 +1,141 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.wrapper {
+	margin: auto;
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 800px;
+}
+
+.title {
+	display: inline;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+.header {
+	padding: 20px; 
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 50%;
+	box-shadow: inset 80px 60px 40px 5px cadetblue;
+	opacity: 0.7;
+}
+.description {
+	color: indigo;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+	padding: 20px;
+	margin: auto;
+	
+}
+.block {
+	display: block;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: 20px auto;
+	border: 2px dashed black;
+}
+.img-block {
+	display: block;
+	box-sizing: border-box;
+	margin: auto;
+	border: 5px dotted black;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 0px red;
+}
+img {
+	display: block;
+	padding: 20px;
+	margin: 20px auto;
+	border: 5px solid green;
+	outline: 5px solid red;
+	box-shadow: inset 0px 0px 40px 0px green;
+}
+.name {
+	font-size: 20px;
+	margin: 20px auto;
+	text-align: center;
+	color: maroon;
+}
+.text {
+	margin: 20px auto;
+	padding: 0 20px;
+	font-size: 18px;
+	line-height: 125%;
+	border: 20px double cadetblue;
+	box-shadow: inset 0px 0px 40px 0px cadetblue;
+}
+
+.subtitle {
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	color: darkslateblue;
+	border: 20px double cadetblue;
+	border-bottom: none;
+	border-radius: 20px 20px 0 0;
+	box-shadow: inset 0px 0px 40px 0px cadetblue;
+}
+
+.one {
+	color: darkcyan;
+	border-top: none;
+	border-bottom: none;
+	visibility: visible;
+}
+
+.two {
+	color: maroon;
+	border-top: none;
+	border-bottom: none;
+	margin-top: 5px;
+}
+
+.three {
+	color: darkcyan;
+	border-top: none;
+	border-radius: 0 0 20px 20px;
+}
+
+.four {
+	color: maroon;
+	border-top: none;
+	border-bottom: none;
+	margin: 5px auto;
+}
+
+.five {
+	color: darkcyan;
+	border-top: none;
+	border-bottom: none;
+	margin-top: 5px;
+}
+
+.six {
+	color: maroon;
+	border-top: none;
+	border-radius: 0 0 20px 20px;
+}
+
+.seven {
+	color: darkcyan;
+	border-top: none;
+	border-bottom: none;
+	margin: 5px auto;
+}
+
+.eight {
+	color: maroon;
+	border-top: none;
+	border-radius: 0 0 20px 20px;
+	margin-top: 0;
+}
